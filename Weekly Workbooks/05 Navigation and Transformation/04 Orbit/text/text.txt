@@ -1,0 +1,5 @@
+It soon becomes a pain to have to manually move the camera around the scene using the keyboard each time we want to get a different perspective on a model. To ease this problem (and to make testing of your renderer easier) we will now include some additional code that automatically animates the position of the camera.
+
+More specifically, add some code to your project that rotates ("orbits") the position on the camera (about the Y axis) around the centre of the Cornell Box. See the animation linked to above for an illustration of what you are aiming to achieve - this is a view from above showing the orbiting of the camera around the model (note that there is no audio narration in this video).
+
+Implementing the "orbit" feature will involve applying a very small rotational transformation to the _camera position_ every time your code iterates through the main loop. As such, you _could_ put the additional "orbit" code inside the loop in the `main` method. _However_ it is standard practice (and arguably tidier) to put the orbit code inside the `draw` function (which already gets called during each iteration of the main loop).

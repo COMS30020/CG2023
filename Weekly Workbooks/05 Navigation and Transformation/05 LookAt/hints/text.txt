@@ -1,0 +1,1 @@
+You might also like to include an event handler which allows the user to toggle (switch on and off) the above animation - sometimes they aren't going to want to be constantly orbiting !

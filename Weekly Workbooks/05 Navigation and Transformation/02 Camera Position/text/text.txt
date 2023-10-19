@@ -1,0 +1,8 @@
+Your render of the Cornell Box is probably looking quite good by now. The problem is that in order to _really_ test out your rendering code, you need to view the model from a number of different angles. Take a look and the slides and audio narration above relating to translation and rotation (there looks like a lot of material, but each file is only short !). Once you have an understanding of the principles, add some key event handlers to your code that allow a user to interactively:
+
+- _translate_ the camera position in 3 dimensions (up/down, left/right, forwards/backwards)
+- _rotate_ the camera position about the centre of the scene (about-the-X-axis and about-the-Y-axis)
+
+Providing translations and rotations of the camera allows you to see how your render looks from different points of view. Note that it is essential your code only manipulates the **position of the camera** (i.e. you do not alter the vertices of the model). There is no need to implement rotation about the Z axis for this exercise - this just makes navigation messy and complex for the user.
+
+Translating the position of the camera is relatively easy - it's just a case of adding (or subtracting) a suitable amount to the x, y, or z coordinate of the camera position `vec3`. Rotation on the other hand is a little more complex - you will need to create a 3x3 rotation matrix (using the `mat3` class from GLM) to apply to the camera position. Take a look at <a href="https://en.wikibooks.org/wiki/GLSL_Programming/Vector_and_Matrix_Operations" target="_blank">this documentation on matrices</a> to find out how to create and manipulate matrices in GLM.

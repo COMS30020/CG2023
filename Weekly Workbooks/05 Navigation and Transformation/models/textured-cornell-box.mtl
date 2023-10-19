@@ -1,0 +1,27 @@
+newmtl White
+Kd 1.000000 1.000000 1.000000
+
+newmtl Grey
+Kd 0.700000 0.700000 0.700000
+
+newmtl Red
+Kd 1.000000 0.000000 0.000000
+
+newmtl Green
+Kd 0.000000 1.000000 0.000000
+
+newmtl Blue
+Kd 0.000000 0.000000 1.000000
+
+newmtl Yellow
+Kd 1.000000 1.000000 0.000000
+
+newmtl Magenta
+Kd 1.000000 0.000000 1.000000
+
+newmtl Cyan
+Kd 0.000000 1.000000 1.000000
+
+newmtl Cobbles
+Kd 1.000000 1.000000 1.000000
+map_Kd texture.ppm

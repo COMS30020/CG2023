@@ -1,0 +1,1 @@
+When altering the camera orientation, we again need to create a 3x3 rotation matrix (just as we did for manipulating the camera position). Similarly, we can make use of the `*` operator to multiply together the rotation matrix and the camera orientation matrix to calculate the new camera orientation.

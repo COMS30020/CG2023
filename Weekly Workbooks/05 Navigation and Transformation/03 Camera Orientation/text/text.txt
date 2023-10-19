@@ -1,0 +1,6 @@
+When you start to move the camera around using the features added in the previous task, you quickly get to the point where the model is no longer visible from the camera position. What we really want is to be able to rotate the _orientation_ of the camera (i.e. panning and tilting) so that we can keep the model in view.
+
+View the slides, audio narration and animation linked to above relating to camera orientation. Then add a new `mat3` matrix to your code to hold the current right/up/forward orientation of the camera. Use this orientation matrix to adjust the camera-to-vertex direction vectors when projecting vertices onto the image plane.
+
+In order to fully test out these new features, add event handlers to your code so that the user can alter the orientation of the camera using suitable keys on the keyboard: rotating the camera in the Y axis (panning) and X axis (tilting). Again, rotation about the Z axis makes navigation messy and complex for the user, so there is no need to implement this in your code.
+

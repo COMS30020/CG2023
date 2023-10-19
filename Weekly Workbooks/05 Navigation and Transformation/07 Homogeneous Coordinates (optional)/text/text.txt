@@ -1,0 +1,3 @@
+This is an optional task that you may (or may not ?) wish to implement. It is useful to know about homogenous coordinates - so _do_ view the slides, audio narration and animation above. However, it is up to you whether you choose to implement these ideas in your rendering code. These features are not essential to complete later exercises and they offer only very marginal benefit for the kinds of rendering that we will be attempting in the remainder of this unit.
+
+If you have the time (and the desire to do so) refactor your code to operate with homogenous coordinates. This will require you to replace `vec3` variables with `vec4` and `mat3` with `mat4`. You may also find that you get some interesting "bonus features" and "side effects" with features such as `lookAt` !
